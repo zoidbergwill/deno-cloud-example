@@ -3,6 +3,9 @@ import { serve } from "https://deno.land/std@0.155.0/http/server.ts";
 import { h, html } from "https://deno.land/x/htm@0.0.10/mod.tsx";
 import { UnoCSS } from "https://deno.land/x/htm@0.0.10/plugins.ts";
 
+import { renderToString } from "https://esm.sh/preact-render-to-string@5.1.19?deps=preact@10.5.15";
+
+
 // enable UnoCSS
 html.use(UnoCSS())
 
